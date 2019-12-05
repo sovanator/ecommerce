@@ -1,0 +1,41 @@
+body{
+    overflow-x:hidden;
+}
+.nav{
+    height: 30px;
+    background: black;
+    width: auto;
+}
+.navRight{
+    float:right;
+}
+.navText{
+    color: white;
+    margin-top:-4px;
+}
+.navbar{
+    background-color: pink;
+    height: 85px;
+
+}
+
+.navbarText{
+    color:black;
+}
+
+/* .noMarginBottom{
+    margin-bottom: -28px;
+} */
+
+.jumbotron {
+    width: auto;
+    height: 500px;
+    background-image:url('/img/jumbo6.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+.secondNav{
+    color:black;
+}
