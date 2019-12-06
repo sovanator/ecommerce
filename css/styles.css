@@ -36,6 +36,11 @@ body{
    
   }
 
-.secondNav{
-    color:black;
+
+
+#noUnderLine{
+    text-decoration: none;
+}
+#gotoTop{
+    background: black;
 }
