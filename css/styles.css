@@ -2,9 +2,16 @@ body{
     overflow-x:hidden;
 }
 .nav{
-    height: 30px;
+    height: 40px;
     background: black;
     width: auto;
+}
+ul.navTop a:hover{
+    color:white;
+}
+ul.navSec a:hover{
+    color:rgb(37, 37, 83) !important;
+    font-size:large;
 }
 .navRight{
     float:right;
@@ -43,4 +50,8 @@ body{
 }
 #gotoTop{
     background: black;
+}
+
+ul.footerList li{
+    background-color:#f8f9fa;
 }
