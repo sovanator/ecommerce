@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "team project",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantumv/ecommerce.git"
+  },
+  "author": "Quantum Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantumv/ecommerce/issues"
+  },
+  "homepage": "https://github.com/quantumv/ecommerce#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.3.0",
+    "popper.js": "^1.12.9"
+  }
+}
