@@ -6,8 +6,14 @@ body{
     background: black;
     width: auto;
 }
+ul.navTop a {
+    text-decoration: underline;
+}
 ul.navTop a:hover{
     color:white;
+}
+ul.navSec a{
+    text-decoration: underline;
 }
 ul.navSec a:hover{
     color:rgb(37, 37, 83) !important;
@@ -21,7 +27,7 @@ ul.navSec a:hover{
     margin-top:-4px;
 }
 .navbar{
-    background-color: pink;
+    background-color: black;
     height: 85px;
 
 }
@@ -33,7 +39,9 @@ ul.navSec a:hover{
 /* .noMarginBottom{
     margin-bottom: -28px;
 } */
-
+/* h5, h4{
+    font-size:3vw;
+} */
 .jumbotron {
     width: auto;
     height: 500px;
@@ -52,6 +60,21 @@ ul.navSec a:hover{
     background: black;
 }
 
-ul.footerList li{
-    background-color:#f8f9fa;
+ul.footerList li a{
+    
+    color:black;
+    text-decoration: underline;
+    font-weight:bold;
 }
+
+#basket {
+    display: inline-block;
+    width:20px;
+    height: 15px;
+    margin-right: 22px;
+
+}
+.floatRight{
+    float:right;
+}
+

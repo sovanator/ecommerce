@@ -13,74 +13,84 @@
 </head>
 
 <body class="bg-light" id="topOfPage">
-    <ul class="nav navTop justify-content-end ">
-        <li class="nav-item">
-            <a class="nav-link active navText" href="#">
-                Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#">Our Team</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#">My Account</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navText" href="#">Location</a>
-        </li>
-    </ul>
-    <div class="row noMarginBottom">
-        <div class="col-3">
-            <a class="navbar-brand" href="#">
-                <img class="img-thumbnail" src="img/logo.png" alt="company Logo">
-            </a>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <!-- <div class="collapse navbar-collapse" > -->
+            <ul class="navbar-nav">
+                <li><a class="nav-item nav-link text-light  " href="#">My Account</a></li>
+                <li> <a class="nav-item nav-link text-light d-none d-sm-block" href="#">Contact Us</a></li>
+                <li> <a class="nav-item nav-link text-light d-none d-sm-block " href="#">About Us</a></li>
+                <li> <a class="nav-item nav-link text-light d-none d-md-block" href="#">Our Team</a></li>
+                <li> <a class="nav-item nav-link text-light d-none d-lg-block" href="#">Location</a></li>
+            </ul>
+            <span class="navbar-text ml-auto text-light">
+                    <a role="button" id="loginButton">
+                        <i class="fa fa-shopping-basket text-light"></i>My Cart
+                    </a>
+            </span>
+            <!-- </div> -->
         </div>
-        <div class="col">
-            <form class="form-inline mt-4">
-                <input class="form-control-lg form-control-lg w-75 h-75 border border-dark" type="text"
-                    placeholder="Search" aria-label="Search">
-                <button class="btn">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-            </form>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row noMarginBottom">
+            <div class="col-3">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="company Logo">
+                </a>
+            </div>
+            <div class="col-7">
+                <form class="form-inline mt-4">
+                    <input class="form-control-lg form-control-lg w-75 h-75 border border-dark" type="text"
+                        placeholder="Search" aria-label="Search">
+                    <button class="btn">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
+
+
         </div>
     </div>
-    <ul class="nav navSec justify-content-center bg-light">
-        <li class="nav-item">
-            <a class="nav-link active text-dark font-weight-bold" href="#">Deal of the day</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold " href="#">Best Sellers</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-xs-block" href="#"><span class="navElem">Store of the
-                    month</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-sm-block " href="#">Featured Story</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-sm-block " href="#">Coupons</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-md-block " href="#"><span class="navElem">Help
-                    Wanted</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-md-block " href="#">Careers</a>
-        </li>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-lg-block navElem" href="#"><span class="navElem">Our
-                    Story</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-none d-lg-block navElem" href="#"><span class="navElem">Our
-                    Story</span></a>
-        </li>
-    </ul>
+    <div class="container-fluid">
+        <ul class="nav navSec justify-content-center bg-light">
+            <li class="nav-item">
+                <a class="nav-link active text-dark font-weight-bold" href="#">Deal of the day</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold " href="#">Best Sellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-sm-block" href="#"><span class="navElem">Store of
+                        the
+                        month</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-,d-block " href="#">Featured Story</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-md-block " href="#">Coupons</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-lg-block " href="#"><span class="navElem">Help
+                        Wanted</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-lg-block " href="#">Careers</a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-lg-block navElem" href="#"><span
+                        class="navElem">Our
+                        Story</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold d-none d-xl-block navElem" href="#"><span
+                        class="navElem">Our
+                        Story</span></a>
+            </li>
+        </ul>
+    </div>
     <div class="jumbotron jumbotron-fluid">
     </div>
     <div class="container">
@@ -182,61 +192,57 @@
     <a id="noUnderLine" href="#topOfPage"><button type="button" class="btn btn-dark btn-lg btn-block" id="gotoTop">Top
             of Page </button></a>
     <footer class="site-footer">
-        <div class="container">
-            <div class="row bg-">
-                <div class="col-4">
-                    <h5 class="text-center">About Us</h5>
-                    <ul class=" list-group footerList list-group-flush">
-                        <li class="list-group-item">Our Team</li>
-                        <li class="list-group-item">Our Story</li>
-                        <li class="list-group-item">Our Principles</li>
-                        <li class="list-group-item">Careers</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <h5 class="text-center">Sell Here</h5>
-                    <ul class="list-group list-group-flush footerList">
-                        <li class="list-group-item">How to Sell</li>
-                        <li class="list-group-item">Vendors Registration</li>
-                        <li class="list-group-item">Advertise with us</li>
-                        <li class="list-group-item">Our Network</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-12">
-                            <h5 class="text-center">Lets Connect</h5>
-                        </div>
-                    </div>
-                    <div class="row">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
 
-                        <ul class="list-group list-group-horizontal-md">
-                            <div class="col-3">
-                                <li class="list-group-item"><a class="btn btn-social-icon btn-instagram"
-                                        href="http://instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                            </div>
-                            <div class="col-3 d-none d-md-block">
-                                <li class="list-group-item"><a class="btn btn-social-icon btn-facebook"
-                                        href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                            </div>
-                            <div class="col-3 d-none d-md-block">
-                                <li class="list-group-item"><a class="btn btn-social-icon btn-twitter"
-                                        href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                            </div>
-                            <div class="col-3 d-none d-md-block ">
-                                <li class="list-group-item"><a class="btn btn-social-icon btn-google"
-                                        href="http://youtube.com/"><i class="fa fa-youtube"></i></a></li>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 text-center ">
+                        <h5>The Store</h5>
+                        <ul class="list-unstyled footerList">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Principles</a></li>
+                            <li><a href="#">Our Focus</a></li>
+                            <li><a href="#">Register with Us</a></li>
                         </ul>
                     </div>
-                    <a role="button" class="btn btn-link" href="tel:+206551234"><i
-                            class="fa fa-phone fa-lg text-primary"></i>x-xxx-xxx-xxx</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:"><i
-                            class="fa fa-envelope fa-lg text-primary"></i>contactus@contactus.com</a>
-                </div>
-            </div>
+                    <div class="col-4 text-center ">
+                        <h5>Get in Touch</h5>
+                        <ul class="list-unstyled footerList ">
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Vendor Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4 text-center font-weight-bold">
+                        <h5>Headquaters</h5>
+                        <ul class="list-unstyled ">
+                            <li>12324 Local Street</li>
+                            <li>Tacoma, WA, 98498</li>
+                            <li>United States</li>
 
-        </div>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
 
 
     </footer>
