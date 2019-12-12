@@ -50,6 +50,14 @@ ul.navSec a:hover{
     background-size: cover;
    
   }
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #loginButton{
+      background-color:black;
+  }
 
 
 
